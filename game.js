@@ -91,18 +91,3 @@ function animate(color){
         $("#"+color).removeClass("pressed");
     },200);
 }
-
-/*else{
-    setTimeout(function(){
-        started=false;
-        playSound(clickedElement);
-        animate(clickedElement);
-        $("h1").text("Game over! Press any key to Restart");
-        $("body").addClass("game-over");
-        var audio=new Audio("sounds/wrong.mp3");
-        audio.play();
-        setTimeout(function(){
-            $("body").removeClass("game-over");
-        },200);
-    },200);
-}*/
